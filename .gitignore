@@ -1,0 +1,26 @@
+# Manuscript is intentionally excluded from this repository
+manuscript/
+*.docx
+*.pdf
+
+# Source/raw data are referenced, not redistributed
+data/raw/*
+!data/raw/README.md
+
+# Local/environment files
+.Rhistory
+.Rproj.user/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+# Derived participant/task-level data: local until redistribution is cleared
+data/derived/*.csv
+data/derived/*.parquet
+!data/derived/README.md
+
+# Common local environments
+.venv/
+venv/
+renv/library/
